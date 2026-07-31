@@ -116,10 +116,6 @@ model = ChatGroq(
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](../../issues) or open a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - [Groq](https://groq.com/) for free, fast LLM inference
