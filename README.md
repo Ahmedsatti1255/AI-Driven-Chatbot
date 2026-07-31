@@ -59,13 +59,13 @@ A simple terminal-based AI chatbot built with **LangChain**, **LangGraph**, and 
 Run the chatbot:
 
 ```bash
-uv run Aichatbot.py
+uv run main.py
 ```
 
 Or with plain Python:
 
 ```bash
-python Aichatbot.py
+python main.py
 ```
 
 Then just start chatting:
@@ -96,7 +96,7 @@ Type `exit` at any time to quit.
 
 ## Configuration
 
-The chatbot uses Groq's `llama-3.3-70b-versatile` model by default. You can change the model or adjust creativity via `temperature` in `Aichatbot.py`:
+The chatbot uses Groq's `llama-3.3-70b-versatile` model by default. You can change the model or adjust creativity via `temperature` in `main.py`:
 
 ```python
 model = ChatGroq(
