@@ -1,0 +1,16 @@
+[project]
+name = "ai-driven-chatbot"
+version = "0.1.0"
+description = "A simple AI chatbot built with LangChain, LangGraph, and Groq's LLM API, featuring streaming responses and an extensible agent architecture with custom tools."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-groq>=0.2.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
